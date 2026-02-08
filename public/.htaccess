@@ -1,0 +1,10 @@
+# Desarrollado por Dev Jean Carlos Sandoval Rosas – Codexuspro
+# Redirigir todo a index.php si el archivo/carpeta no existe (opcional para instalaciones Apache)
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    # No reescribir archivos o directorios existentes
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+</IfModule>
