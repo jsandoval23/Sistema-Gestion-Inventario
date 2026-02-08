@@ -125,7 +125,3 @@ La API en `public/api/productos.php` acepta:
 ---
 
 *Desarrollado por Dev Jean Carlos Sandoval Rosas – Codexuspro*
-<<<<<<< HEAD
-=======
-
->>>>>>> 07fbddffd4988346a3d58c21cf1b8d97b885339f
